@@ -1,0 +1,226 @@
+/* responsive */
+
+/* #icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top:16px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 1220px) {
+    .container-header, .container-main,
+    .container-aside, .container-footer footer{
+        max-width: 1000px;
+        padding: 0px 20px;
+    }
+} */
+
+/* @media screen and (max-width: 1020px){
+        .container-main{
+            width: 100%;
+            grid-column-end: 100px;
+        }
+} */
+
+/* @media screen and (max-width: 800px){
+    .funcioness{
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 90px;
+        left: 0px;
+        background-color: brown;
+        overflow: hidden;
+        box-shadow: 10px 0px 20px -25px black;
+    }
+}
+
+.funcioness nav a{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* header y body */
+body{
+   background-image: url(./Imagenes/fonndo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container-header{ 
+    background-color: brown;
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    padding-right: 30px;
+}
+    /* agregarle una animacion */
+.titulo{
+   padding-left: 30px;
+}
+
+*{
+    margin: 0;
+}
+.funcioness{
+    margin: 2px;
+}
+
+.inicio, .contacto, .iniciarSesion, .descargar{
+    
+    border: 10px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+
+}
+        /* Carrusel */
+
+        .carrusel{
+            margin: 50px 0px 0px 450px;
+            display: flex;
+            justify-content: center;
+           height: 500px;
+           width: 500px;
+        }
+     .primer-label{
+        margin: 0px 0px 0px 0px;
+     }   
+     .primer-p{
+        margin: 0px 0px 0px 0px;
+     }
+     
+     h2{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        background-color: brown;
+        margin: 0;
+     }
+     .imagen-maquillaje{
+        height: 500px;
+        width: 500px;
+     }
+      
+       /* cartas */
+
+       .cartass3, .cartass2, .cartass{
+        border: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                width: 320px;
+                height: 350px;
+      }
+      .imagen-carta3, .imagen-carta2, .imagen-carta{
+        background-color: #fff;
+        border-radius: 5px;
+        width: 290px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        margin-left: 15px;
+        margin-top: 5px;
+        padding: 0px 0 0px 0px;
+        
+    }
+    .texto-carta3, .texto-carta2, .texto-carta{
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    button{
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #3498db;
+        background-color: #3498db;
+        font-size: 16px;
+
+    }
+
+        h3{
+            display: flex;
+            justify-content: center;
+        }
+        .quienes-somos{
+           
+            display: flex;
+            justify-content: center;
+            bottom: 1050px;
+        }
+
+   /* video */
+
+        #video{
+            margin-left: 380px;
+        }
+         /* aside */
+
+       .presentacion{
+        border: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                margin-right: 450px;
+                margin-left: 450px;
+                padding: 15px;
+       } 
+       #imagen-mica{
+        width: 300px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        margin-left: 30px;
+       }
+       .presentacion-texto{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+        /* footer */
+
+        .logo-footer{
+            display: flex;
+            margin: auto;
+        }
+
+         .Whatsapp, .uzumaki-instagram, .instagram-footer, .Whatsapp-Footer{    
+         margin-left: 130px;
+        }
+       
+        .derechosdeautor{
+            text-align: center;
+        }
+        .instagram-footer{
+            width: 50px;
+        }
+        .Whatsapp-Footer{
+            width: 30px;
+        }
+          /* grid */
+        .conteiner{
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, auto);
+            }
+
+        .conteiner > div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        /* AHORRAR CODIGO */
+
+        .uzumaki-instagram, .Whatsapp{
+            text-decoration: none;
+            color: black;
+        }
+
