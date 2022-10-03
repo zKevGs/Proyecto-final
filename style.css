@@ -69,18 +69,13 @@ body{
 *{
     margin: 0;
 }
-.funcioness{
-    margin: 2px;
-}
 
-.inicio, .contacto, .iniciarSesion, .descargar{
-    
+.inicio, .contacto, .iniciarSesion, .descargar{ 
     border: 10px solid black;
     border-radius: 10px;
     text-decoration: none;
     background-color: black;
     color: red;
-
 }
         /* Carrusel */
 
@@ -175,7 +170,7 @@ body{
         display: flex;
         justify-self: center;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 80px;
        }
        .presentacion-texto{
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
